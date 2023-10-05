@@ -1,0 +1,275 @@
+
+html {
+	font-family: 'Poppins', sans-serif;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+html,body {
+	height: 100%;
+	margin: 0;
+}
+*{
+	padding:0;
+	margin:0;
+}
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration:none;
+}
+a:active,
+a:hover {
+	outline: 0;
+	text-decoration:none;
+}
+.slicknav_menu{
+	display:none;
+}
+.table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+img {
+	border: 0;
+}
+svg:not(:root) {
+	overflow: hidden;
+}
+figure {
+	margin: 1em 40px;
+}
+hr {
+	box-sizing: content-box;
+	height: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+button {
+	overflow: visible;
+}
+button,
+select {
+	text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+	cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #424646;
+    font-family: 'Poppins', sans-serif;
+	font-weight:400;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	margin: 0;
+}
+p {
+	color:#757575;
+	margin: 0;
+	line-height:24px;
+}
+a,button,input{
+	font-weight:400;
+}
+img,a,input,h1, h2, h3, h4, h5, h6{
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+dfn, cite, em, i {
+	font-style: italic;
+}
+address {
+	margin: 0 0 1.5em;
+}
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark, ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+.section {
+	padding: 100px 0;
+	position: relative;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 0 215px;
+}
+.section-title h2 {
+	font-size: 30px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+	position: relative;
+	color: #f3637f;
+	font-weight: 700;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+.section-title h2::before {
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 50px;
+	background: #F7941D;
+	left: 50%;
+	bottom: 0;
+	margin-left: -25px;
+}
+.section-title p {
+	font-size: 14px;
+	color: #f3637f;
+}
+.container{
+	max-width:1170px;
+}
+.overlay{
+	position:relative
+}
+.overlay::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+	background: #333;
+	content: "";
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+/* Bread Crumbs */
+.breadcrumbs {
+	background-color: #F6F7FB;
+	position: relative;
+	padding: 30px 0px;
+}
+.breadcrumbs .bread-inner {
+	z-index: 22;
+	text-align: left;
+}
+.breadcrumbs .bread-list {
+	display: inline-block;
+}
+.breadcrumbs ul li{
+	display: inline-block;
+	position: relative;
+}
+.breadcrumbs ul li i {
+	margin: 0px 10px;
+	font-size: 9px;
+	font-weight: 600;
+	color: #333;
+}
+.breadcrumbs ul li a {
+	color: #333;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.breadcrumbs ul li.active a {
+	color: #333;
+	display: inline-block;
+}
+.breadcrumbs ul li a:hover{
+	color:#f3637f;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover, a:focus, a:active {
+	color: inherit;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
