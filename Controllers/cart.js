@@ -164,7 +164,7 @@ let TotalAmount = () => {
     localStorage.setItem("totalAmount", amount);
 
     return (label.innerHTML = `
-    <h2>Total Bill : $ ${amount}</h2>
+    <h2>Total Bill : Rs- ${amount}</h2>
     <a class="checkout" href="checkout.html" >Checkout</a>
     <button onclick="clearCart()" class="removeAll">Clear Cart</button>
     `);
